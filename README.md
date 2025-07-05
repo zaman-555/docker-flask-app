@@ -2,12 +2,13 @@
 
 
  ```bash
+apt-get install python3-pip
 python3 -m venv venv
-pip install -r requirenment.txt
+pip install -r requirements.txt
+python3 app.py
 ```
 
 ```bash
-docker build -t flask-app:v1.1 .
 docker images
 docker run -d -p 5001:5001 flask-app:v1.1
 curl -v http://localhost:5001
