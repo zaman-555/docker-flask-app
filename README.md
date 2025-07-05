@@ -5,7 +5,6 @@
 apt-get install python3-pip
 python3 -m venv venv
 pip install -r requirements.txt
-python3 app.py
 ```
 
  ```bash
@@ -13,11 +12,14 @@ python3 app.py
 ```
 
 ```bash
+docker build -t flask-app:v1.1 .
+docker history 792cdfac1539
 docker images
 docker run -d -p 5001:5001 flask-app:v1.1
 curl -v http://localhost:5001
 ```
 
+![Diagram](./images/system_run.png)
 
  ```bash
 docker run -d nginx
