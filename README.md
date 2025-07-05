@@ -8,6 +8,10 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
+ ```bash
+python3 app.py
+```
+
 ```bash
 docker images
 docker run -d -p 5001:5001 flask-app:v1.1
