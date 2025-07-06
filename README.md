@@ -19,7 +19,7 @@ docker run -d -p 5001:5001 flask-app:v1.1
 curl -v http://localhost:5001
 ```
 
-![Diagram](./images/system_run.png)
+![Error](./images/system_run.png)
 
 
 
