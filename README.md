@@ -21,9 +21,6 @@ curl -v http://localhost:5001
 
 ![Error](./images/system_run.png)
 
-
-
-
  ```bash
 sudo netstat -tulnp | grep :5001
 ```
