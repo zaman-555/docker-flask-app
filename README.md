@@ -27,11 +27,11 @@ curl -v http://localhost:5001
  ```bash
 sudo netstat -tulnp | grep :5001
 ```
--> Show TCP ports
--> Show UDP ports
--> Show listening ports
--> Show numeric addresses (instead of resolving hostnames)
--> Show process ID and name
+- Show TCP ports
+- Show UDP ports
+- Show listening ports
+- Show numeric addresses (instead of resolving hostnames)
+- Show process ID and name
 
  ```bash
 docker run -d nginx
